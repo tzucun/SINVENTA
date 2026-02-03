@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-=======
-/* RESET DASAR */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 * {
     box-sizing: border-box;
     font-family: 'Segoe UI', Tahoma, sans-serif;
@@ -13,10 +9,6 @@ body {
     padding: 0;
 }
 
-<<<<<<< HEAD
-=======
-/* HEADER & NAVBAR */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 header {
     background: linear-gradient(90deg, #d00000, #b91c1c);
     color: white;
@@ -60,10 +52,6 @@ nav a:hover {
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
-=======
-/* CONTAINER */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .container {
     max-width: 1100px;
     margin: 40px auto;
@@ -73,10 +61,6 @@ nav a:hover {
     box-shadow: 0 8px 20px rgba(0,0,0,0.08);
 }
 
-<<<<<<< HEAD
-=======
-/* JUDUL */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 h2 {
     margin-bottom: 20px;
     color: #1f2937;
@@ -109,10 +93,6 @@ h2 {
     width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-/* BUTTON UMUM */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .btn {
     display: inline-block;
     padding: 8px 14px;
@@ -125,10 +105,6 @@ h2 {
     cursor: pointer;
 }
 
-<<<<<<< HEAD
-=======
-/* BUTTON PRIMARY TELKOM */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .btn-primary {
     background: linear-gradient(135deg, #d00000, #b91c1c);
     color: white;
@@ -143,10 +119,6 @@ h2 {
     box-shadow: 0 6px 14px rgba(208, 0, 0, 0.35);
 }
 
-<<<<<<< HEAD
-=======
-/* BUTTON EDIT */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .btn-edit {
     background: linear-gradient(135deg, #22c55e, #16a34a);
     color: white;
@@ -171,10 +143,6 @@ h2 {
     box-shadow: 0 4px 10px rgba(34, 197, 94, 0.35);
 }
 
-<<<<<<< HEAD
-=======
-/* BUTTON DELETE */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .btn-delete {
     background: linear-gradient(135deg, #ef4444, #dc2626);
     color: white;
@@ -210,10 +178,6 @@ h2 {
     box-shadow: 0 4px 10px rgba(208, 0, 0, 0.35);
 }
 
-<<<<<<< HEAD
-=======
-/* BUTTON SECONDARY (DAFTAR / KEMBALI) */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .btn-secondary {
     background: transparent;
     color: #b91c1c;
@@ -238,10 +202,6 @@ h2 {
     box-shadow: 0 4px 10px rgba(185, 28, 28, 0.25);
 }
 
-<<<<<<< HEAD
-=======
-/* TABLE */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 table {
     width: 100%;
     border-collapse: collapse;
@@ -266,20 +226,12 @@ tbody tr:hover {
     background: #e0f2fe;
 }
 
-<<<<<<< HEAD
-=======
-/* AKSI */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .action-buttons {
     display: flex;
     gap: 6px;
     justify-content: center;
 }
 
-<<<<<<< HEAD
-=======
-/* FORM */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .form-card {
     max-width: 500px;
     margin: 30px auto;
@@ -324,10 +276,6 @@ tbody tr:hover {
     margin-top: 20px;
 }
 
-<<<<<<< HEAD
-=======
-/* ALERT */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .alert-success {
     background: #dcfce7;
     color: #166534;
@@ -338,10 +286,6 @@ tbody tr:hover {
     border-left: 5px solid #22c55e;
 }
 
-<<<<<<< HEAD
-=======
-/* HERO HOMEPAGE */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .hero {
     display: flex;
     justify-content: space-between;
@@ -377,10 +321,6 @@ tbody tr:hover {
     max-width: 100%;
 }
 
-<<<<<<< HEAD
-=======
-/* RESPONSIVE */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 @media (max-width: 768px) {
     table {
         font-size: 12px;
@@ -392,10 +332,6 @@ tbody tr:hover {
     }
 }
 
-<<<<<<< HEAD
-=======
-/* AUTH PAGES */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .auth-wrapper {
     min-height: 100vh;
     background: linear-gradient(135deg, #d00000, #b91c1c);
@@ -461,10 +397,6 @@ tbody tr:hover {
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
-=======
-/* AUTH ENHANCED */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .auth-logo {
     text-align: center;
     margin-bottom: 15px;
@@ -509,28 +441,16 @@ tbody tr:hover {
     text-decoration: underline;
 }
 
-<<<<<<< HEAD
-=======
-/* REGISTER / RESET FIX */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .auth-box .btn-primary {
     margin-top: 8px;
 }
 
-<<<<<<< HEAD
-=======
-/* FORM GROUP OPTIONAL */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .form-group {
     display: flex;
     flex-direction: column;
     gap: 6px;
 }
 
-<<<<<<< HEAD
-=======
-/* FIX ALERT AUTH */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .alert-success,
 .alert-error {
     width: 100%;
@@ -538,10 +458,6 @@ tbody tr:hover {
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-=======
-/* FIX FOOTER LOGIN */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .auth-footer {
     margin-top: 16px;
     text-align: center;
@@ -558,10 +474,6 @@ tbody tr:hover {
     border-left: 5px solid #ef4444;
 }
 
-<<<<<<< HEAD
-=======
-/* FIX ALERT DI SEMUA HALAMAN AUTH */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .alert-success,
 .alert-error {
     width: 100%;
@@ -569,10 +481,6 @@ tbody tr:hover {
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-=======
-/* ALERT ERROR STYLE */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .alert-error {
     background: #fee2e2;
     color: #991b1b;
@@ -583,20 +491,12 @@ tbody tr:hover {
     border-left: 5px solid #ef4444;
 }
 
-<<<<<<< HEAD
-=======
-/* FOOTER AUTH (LOGIN / FORGOT) */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .auth-footer {
     margin-top: 16px;
     text-align: center;
     font-size: 14px;
 }
 
-<<<<<<< HEAD
-=======
-/* Card Statistik */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .card-stat {
     padding: 20px;
     border-radius: 10px;
@@ -616,10 +516,6 @@ tbody tr:hover {
     font-weight: bold;
 }
 
-<<<<<<< HEAD
-=======
-/* Card Grafik */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .chart-card {
     background: #fff;
     padding: 20px;
@@ -628,10 +524,6 @@ tbody tr:hover {
     margin-bottom: 20px;
 }
 
-<<<<<<< HEAD
-=======
-/* Responsive flex untuk dashboard */
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 .dashboard-flex {
     display: flex;
     gap: 20px;
@@ -639,7 +531,6 @@ tbody tr:hover {
     margin-bottom: 30px;
 }
 
-<<<<<<< HEAD
 html.dark body {
     background-color: #0b1220;
     color: #e5e7eb;
@@ -789,5 +680,3 @@ html.dark .hero-text p {
     padding: 12px 16px;
     border-radius: 10px;
 }
-=======
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5

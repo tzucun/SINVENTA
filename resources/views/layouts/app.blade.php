@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<<<<<<< HEAD
 <html lang="id">
 <head>
     <meta charset="UTF-8">
@@ -57,39 +56,11 @@
                     </svg>
                     Logout
                 </button>
-=======
-<html>
-<head>
-    <link rel="stylesheet" href="{{ asset('css/app.css') }}">
-    <title>Inventaris Telkom</title>
-</head>
-<body>
-<header>
-    <h2>    
-        <a href="{{ url('/') }}" class="brand-link">
-        Inventaris Aset Telkom
-        </a>
-    </h2>
-    <nav>
-        <a href="{{ route('alkers.index') }}">Alker</a>
-        <a href="{{ route('salkers.index') }}">Salker</a>
-
-        @auth
-            <a href="/dashboard">Dashboard</a>
-
-            <form action="{{ route('logout') }}" method="POST" style="display:inline;">
-                @csrf
-                <button class="logout-btn">Logout</button>
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
             </form>
         @endauth
 
         @guest
-<<<<<<< HEAD
             <!-- <a href="/login">Login</a> -->
-=======
-            <a href="/login">Login</a>
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
         @endguest
     </nav>
 </header>
@@ -97,7 +68,6 @@
 <div class="container">
     @yield('content')
 </div>
-<<<<<<< HEAD
 
 
 @yield('scripts')
@@ -131,8 +101,5 @@
     })();
 </script>
 
-=======
-    @yield('scripts')
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 </body>
 </html>

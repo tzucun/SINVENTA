@@ -24,21 +24,13 @@ class DashboardController extends Controller
         $totalRusakSalker = Salker::where('kondisi', 'Rusak')->count();
         $totalPerbaikanSalker = Salker::where('kondisi', 'Perbaikan')->count();
 
-<<<<<<< HEAD
         // Jumlah Alker per kategori
-=======
-        // Jumlah Alker per kategori (Collection murni)
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
         $kategoriAlker = Alker::groupBy('kategori')
             ->selectRaw('kategori, COUNT(*) as total')
             ->get()
             ->pluck('total', 'kategori');
 
-<<<<<<< HEAD
         // Jumlah Salker per jenis
-=======
-        // Jumlah Salker per jenis (Collection murni)
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
         $jenisSalker = Salker::groupBy('jenis')
             ->selectRaw('jenis, COUNT(*) as total')
             ->get()

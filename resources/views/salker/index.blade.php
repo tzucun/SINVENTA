@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
 
 <h2 id="judulhalaman">Data Sarana Kerja (Salker)</h2>
 
@@ -13,18 +12,6 @@
 
 @if(session('success'))
 <div class="alert-success alert-space">
-=======
-<div class="container">
-
-<h2 id="judulhalaman">Data Sarana Kerja (Salker)</h2>
-
-<a href="{{ route('salkers.create') }}" class="btn btn-primary">
-    + Tambah Salker
-</a>
-
-@if(session('success'))
-<div class="alert-success">
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
     {{ session('success') }}
 </div>
 @endif

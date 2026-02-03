@@ -1,17 +1,9 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
 
     <h2 id="judulhalaman">Dashboard Inventaris Telkom</h2>
 
-=======
-<div class="container">
-
-    <h2 id="judulhalaman">Dashboard Inventaris Telkom</h2>
-
-    <!-- Statistik Ringkas -->
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
     <div class="dashboard-flex" style="gap:20px;">
         <div class="card-stat" style="background:#d00000; flex:1; min-width:200px;">
             <h3>Total Alker</h3>
@@ -24,32 +16,20 @@
         </div>
 
         <div class="card-stat" style="background:#16a34a; flex:1; min-width:200px;">
-<<<<<<< HEAD
             <h3>Kondisi Alker</h3>
-=======
-            <h3>Alker Kondisi</h3>
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
             <p>Baik: {{ $totalBaikAlker }}</p>
             <p>Rusak: {{ $totalRusakAlker }}</p>
             <p>Perbaikan: {{ $totalPerbaikanAlker }}</p>
         </div>
 
         <div class="card-stat" style="background:#10b981; flex:1; min-width:200px;">
-<<<<<<< HEAD
             <h3>Kondisi Salker</h3>
-=======
-            <h3>Salker Kondisi</h3>
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
             <p>Baik: {{ $totalBaikSalker }}</p>
             <p>Rusak: {{ $totalRusakSalker }}</p>
             <p>Perbaikan: {{ $totalPerbaikanSalker }}</p>
         </div>
     </div>
 
-<<<<<<< HEAD
-=======
-    <!-- Grafik -->
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
     <div class="dashboard-flex">
         <div class="chart-card" style="flex:1; min-width:300px;">
             <h3>Kategori Alker</h3>
@@ -62,10 +42,6 @@
         </div>
     </div>
 
-<<<<<<< HEAD
-=======
-    <!-- Tabel Alker Terbaru -->
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
     <div class="chart-card">
         <h3>Alker Terbaru</h3>
         <table>
@@ -102,10 +78,6 @@
         </table>
     </div>
 
-<<<<<<< HEAD
-=======
-    <!-- Tabel Salker Terbaru -->
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
     <div class="chart-card">
         <h3>Salker Terbaru</h3>
         <table>
@@ -135,20 +107,11 @@
             </tbody>
         </table>
     </div>
-<<<<<<< HEAD
-=======
-
-</div>
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 @endsection
 
 @section('scripts')
 <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 <script>
-<<<<<<< HEAD
-=======
-    // Chart Kategori Alker
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
     const ctxAlker = document.getElementById('chartKategoriAlker').getContext('2d');
     new Chart(ctxAlker, {
         type: 'pie',
@@ -162,10 +125,6 @@
         options: { responsive: true }
     });
 
-<<<<<<< HEAD
-=======
-    // Chart Jenis Salker
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
     const ctxSalker = document.getElementById('chartJenisSalker').getContext('2d');
     new Chart(ctxSalker, {
         type: 'pie',

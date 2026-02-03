@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 @extends('layouts.appex')
-=======
-@extends('layouts.app')
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 
 @section('content')
 <div class="form-card">

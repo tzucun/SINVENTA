@@ -1,7 +1,6 @@
 @extends('layouts.app')
 
 @section('content')
-<<<<<<< HEAD
 
 <h2 id="judulhalaman">Data Alat Kerja (Alker)</h2>
 
@@ -18,22 +17,6 @@
 @endif
 
 
-=======
-<div class="container">
-
-<h2 id="judulhalaman">Data Alat Kerja (Alker)</h2>
-
-<a href="{{ route('alkers.create') }}" class="btn btn-primary">
-    + Tambah Alker
-</a>
-
-@if(session('success'))
-<div class="alert-success">
-    {{ session('success') }}
-</div>
-@endif
-
->>>>>>> f68f6cdbc853c53cc75033861251d15a729cc2f5
 <table>
     <thead>
         <tr>
